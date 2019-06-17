@@ -52,13 +52,13 @@
 
                     <li><a href="department.jsp "><i class="ti-layout"></i> 部门管理</a></li>
                     <li><a href="staff.jsp "><i class="ti-user"></i> 员工管理</a></li>
-                    <li><a href="hire.jsp "><i class="ti-panel"></i> 招聘管理</a></li>
-                    <li><a href="train.jsp "><i class="ti-layout-grid4-alt"></i> 培训管理</a></li>
-                    <li><a href="rp.jsp "><i class="ti-view-list-alt"></i> 奖惩管理</a></li>
+                    <li><a href="hire.jsp "><i class="ti-layout-cta-btn-left"></i> 招聘管理</a></li>
+                    <li><a href="train.jsp "><i class="ti-id-badge"></i> 培训管理</a></li>
+                    <li><a href="rp.jsp "><i class="ti-gift"></i> 奖惩管理</a></li>
                     <li><a href="pay.jsp "><i class="ti-bar-chart-alt"></i> 薪资管理</a></li>
-                    <li><a href="system.jsp "><i class="ti-target"></i> 系统管理</a></li>
+                    <li><a href="system.jsp "><i class="ti-settings"></i> 系统管理</a></li>
                     <li><a href="user_change.jsp "><i class="ti-file"></i> 用户修改</a></li>
-                    <li><a href="exit.jsp "><i class="ti-close"></i> 安全退出</a></li>
+                    <li><a href="exit.jsp "><i class="ti-power-off"></i> 安全退出</a></li>
                 </ul>
             </div>
         </div>
@@ -196,79 +196,14 @@
         <!-- END chat -->
     </div>
     <!-- END chat Sidebar-->
-    <%--
-        <div class="content-wrap">
-            <div class="main-content">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="card alert">
-                            <div class="card-header">
-                                <h4>查询/修改/删除员工信息</h4>
-                                <div class="card-header-right-icon">
-                                    <input type="submit" name="submit" value="保存信息">
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <table class="table table-responsive">
-                                    <thead>
-                                    <tr>
-                                        <th>是否删除</th>
-                                        <th>员工编号</th>
-                                        <th>员工姓名</th>
-                                        <th>员工性别</th>
-                                        <th>员工年龄</th>
-                                        <th>所在部门</th>
-                                    </tr>
-                                    </thead>
-                                    <%
-                                        try{
-                                            DBAccessBean db = new DBAccessBean();
-                                            db.createConn();
-                                            String sql = "select * from staff;";
-                                            ResultSet rst=db.query(sql);
-                                            int count =0;
-                                            while (rst.next()) {
-
-                                    %>
-
-                                    <tbody>
-                                    <tr>
-                                        <td><input type="checkbox" id="<%=count + "checkbox"%>" name="checkbox" value="<%=rst.getString("sId")%>" > </td>
-                                        <td><input type="text" name="<%=count + "sId"%>" value="<%=rst.getString("sId")%>" readonly="true"> </td>
-                                        <td><input type="text" name="<%=count + "sName"%>" value="<%=rst.getString("sName")%>"> </td>
-                                        <td><input type="text" name="<%=count + "sSex"%>" value="<%=rst.getString("sSex")%>"> </td>
-                                        <td><input type="number" name="<%=count + "sAge"%>" value="<%=rst.getString("sAge")%>"> </td>
-                                        <td><input type="text" name="<%=count + "sDepartment"%>" value="<%=rst.getString("sDepartment")%>"> </td>
-                                    </tr>
-                                    </tbody>
-                                    <%
-
-                                                count++;
-                                            }
-                                            session.setAttribute("count",count);
-                                            db.closeRs();
-                                            db.closeStmt();
-                                            db.closeConn();
-                                        }catch (Exception e){
-                                            e.printStackTrace();
-                                        }
-                                    %>
-                                </table>
-                            </div>
-                        </div>
-                    </div><!-- /# column -->
-                    <!-- /# column -->
-                </div>
-            </div>
-            --%>
     <div class="content-wrap">
         <div class="col-lg-6">
-            <h3 class="bill" contenteditable="false">查询/修改/删除薪资信息</h3>
+            <h3>查询/修改/删除薪资信息</h3>
         </div>
         <table class="table table-responsive">
             <thead>
             <tr>
-                <th><i class="ti-close"></i></th>
+                <td class="ti-close"></td>
                 <td>员工编号</td>
                 <td>员工姓名</td>
                 <td>员工性别</td>
@@ -290,12 +225,12 @@
             %>
             <tr>
                 <td><input type="checkbox" id="<%=count + "checkbox"%>" name="checkbox" value="<%=rst.getString("pId")%>" > </td>
-                <td><input type="text" name="<%=count + "pId"%>" value="<%=rst.getString("pId")%>" readonly="true" style="width: 100%;"/> </td>
-                <td><input type="text" name="<%=count + "pName"%>" value="<%=rst.getString("pName")%>" style="width: 100%;"/> </td>
-                <td><input type="text" name="<%=count + "pSex"%>" value="<%=rst.getString("pSex")%>" style="width: 100%;"/> </td>
-                <td><input type="text" name="<%=count + "pAge"%>" value="<%=rst.getString("pAge")%>" style="width: 100%;"/> </td>
-                <td><input type="text" name="<%=count + "pDepartment"%>" value="<%=rst.getString("pDepartment")%>" style="width: 100%;"/> </td>
-                <th><input type="text" name="<%=count + "pPay"%>" value="<%=rst.getString("pPay")%>" style="width: 100%;"/> </th>
+                <td><input type="text" name="<%=count + "pId"%>" value="<%=rst.getString("pId")%>" readonly="readonly" class="form-control" style="width: 100%"></td>
+                <td><input type="text" name="<%=count + "pName"%>" value="<%=rst.getString("pName")%>" style="width: 100%;" /> </td>
+                <td><input type="text" name="<%=count + "pSex"%>" value="<%=rst.getString("pSex")%>" style="width: 100%;" /> </td>
+                <td><input type="text" name="<%=count + "pAge"%>" value="<%=rst.getString("pAge")%>" style="width: 100%;" > </td>
+                <td><input type="text" name="<%=count + "pDepartment"%>" value="<%=rst.getString("pDepartment")%>" style="width: 100%;" /> </td>
+                <th><input type="text" name="<%=count + "pPay"%>" value="<%=rst.getString("pPay")%>" style="width: 100%;"></th>
             </tr>
 
             <%
@@ -315,7 +250,7 @@
 
 
         <div class="col-lg-6">
-            <h3 class="bill" contenteditable="false">添加薪资信息</h3>
+            <h3>添加薪资信息</h3>
         </div>
         <table class="table table-responsive">
             <thead>

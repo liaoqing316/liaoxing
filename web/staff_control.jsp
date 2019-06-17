@@ -23,7 +23,6 @@
         String delete;
         String[] deleteString = request.getParameterValues("checkbox");
         if (deleteString != null) {//删除数据
-           //delete = deleteString[0];
             for (int i = 0; i < deleteString.length; i++) {
                 delete = deleteString[i];
                 if (delete != null) {
@@ -44,8 +43,8 @@
             String sSex = request.getParameter(i + "sSex");
             String sAge = request.getParameter(i + "sAge");
             String sDepartment = request.getParameter(i + "sDepartment");
-          if ((!sSex.equals("")) || (!sAge.equals("")) || (!sDepartment.equals(""))) {
-                String sql = "update staff set sName = '" + sName + "',sSex =' " + sSex + " ',sAge = " + sAge + ",sDepartment = '" + sDepartment +"' where sId=" + sId + ";";
+            if ((!sName.equals(""))&&(!sSex.equals(""))&&(!sAge.equals(""))&&(!sDepartment.equals(""))) {
+                String sql = "update staff set sName = '" + sName + "',sSex =' " + sSex + " ',sAge = " + sAge + ",sDepartment = '" + sDepartment + "' where sId=" + sId + ";";
                 db.update(sql);
             }
         }
@@ -58,8 +57,10 @@
         String sSex=request.getParameter("sSex");
         String sAge=request.getParameter("sAge");
         String sDepartment=request.getParameter("sDepartment");
-        String sql = "insert into staff values(null,'" + sName + "','"+ sSex +"'," + sAge +",'"+ sDepartment +"');";
-        db.update(sql);
+        if ((!sName.equals(""))&&(!sSex.equals(""))&&(!sAge.equals(""))&&(!sDepartment.equals(""))) {
+            String sql = "insert into staff values(null,'" + sName + "','" + sSex + "'," + sAge + ",'" + sDepartment + "');";
+            db.update(sql);
+        }
         db.closeRs();
         db.closeStmt();
         db.closeConn();

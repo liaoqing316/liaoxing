@@ -12,7 +12,7 @@
 
 <html>
 <head>
-    <title>部门信息2</title>
+    <title>部门信息</title>
 </head>
 <body>
 <%
@@ -48,6 +48,7 @@
     }catch (Exception e){
         e.printStackTrace();
     }
+
     PrintWriter output = response.getWriter();
     output.print("<script>alert('保存完成'); " +
             "window.location='department.jsp' </script>");

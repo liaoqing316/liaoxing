@@ -44,7 +44,7 @@
             String pAge = request.getParameter(i + "pAge");
             String pDepartment = request.getParameter(i + "pDepartment");
             String pPay = request.getParameter(i +"pPay");
-            if ((!pSex.equals("")) || (!pAge.equals("")) || (!pDepartment.equals("")) || (!pPay.equals(""))) {
+            if ((!pName.equals(""))&&(!pSex.equals(""))&&(!pAge.equals(""))&&(!pDepartment.equals(""))&&(!pPay.equals(""))) {
                 String sql = "update pay set pName = '" + pName + "',pSex =' " + pSex + " ',pAge = " + pAge + ",pDepartment = '" + pDepartment +"',pPay ='" + pPay + "' where pId=" + pId + ";";
                 db.update(sql);
             }
@@ -59,8 +59,10 @@
         String pAge=request.getParameter("pAge");
         String pDepartment=request.getParameter("pDepartment");
         String pPay=request.getParameter("pPay");
-        String sql = "insert into pay values(null,'" + pName + "','"+ pSex +"'," + pAge +",'"+ pDepartment +"','" + pPay +"');";
-        db.update(sql);
+        if ((!pName.equals(""))&&(!pSex.equals(""))&&(!pAge.equals(""))&&(!pDepartment.equals(""))&&(!pPay.equals(""))) {
+            String sql = "insert into pay values(null,'" + pName + "','" + pSex + "'," + pAge + ",'" + pDepartment + "','" + pPay + "');";
+            db.update(sql);
+        }
         db.closeRs();
         db.closeStmt();
         db.closeConn();

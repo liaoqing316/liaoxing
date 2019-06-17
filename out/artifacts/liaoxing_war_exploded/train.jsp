@@ -49,16 +49,15 @@
             <div class="nano-content" style="">
                 <ul>
                     <li class="active">
-
                     <li><a href="department.jsp "><i class="ti-layout"></i> 部门管理</a></li>
                     <li><a href="staff.jsp "><i class="ti-user"></i> 员工管理</a></li>
-                    <li><a href="hire.jsp "><i class="ti-panel"></i> 招聘管理</a></li>
-                    <li><a href="train.jsp "><i class="ti-layout-grid4-alt"></i> 培训管理</a></li>
-                    <li><a href="rp.jsp "><i class="ti-view-list-alt"></i> 奖惩管理</a></li>
+                    <li><a href="hire.jsp "><i class="ti-layout-cta-btn-left"></i> 招聘管理</a></li>
+                    <li><a href="train.jsp "><i class="ti-id-badge"></i> 培训管理</a></li>
+                    <li><a href="rp.jsp "><i class="ti-gift"></i> 奖惩管理</a></li>
                     <li><a href="pay.jsp "><i class="ti-bar-chart-alt"></i> 薪资管理</a></li>
-                    <li><a href="system.jsp "><i class="ti-target"></i> 系统管理</a></li>
+                    <li><a href="system.jsp "><i class="ti-settings"></i> 系统管理</a></li>
                     <li><a href="user_change.jsp "><i class="ti-file"></i> 用户修改</a></li>
-                    <li><a href="exit.jsp "><i class="ti-close"></i> 安全退出</a></li>
+                    <li><a href="exit.jsp "><i class="ti-power-off"></i> 安全退出</a></li>
                 </ul>
             </div>
         </div>
@@ -199,13 +198,13 @@
 
     <div class="content-wrap">
         <div class="col-lg-6">
-            <h3 class="bill" contenteditable="false">查询/修改/删除培训信息</h3>
+            <h3>查询/修改/删除培训信息</h3>
         </div>
         <table class="table table-responsive">
             <thead>
             <tr>
-                <th><i class="ti-close"></i></th>
-                <td>培训编号</td>
+                <td class="ti-close"></td>
+                <td>编号</td>
                 <td>培训人</td>
                 <td>性别</td>
                 <td>年龄</td>
@@ -221,18 +220,19 @@
                     ResultSet rst=db.query(sql);
                     int count =0;
                     while (rst.next()) {
-
             %>
+
             <tr>
                 <td><input type="checkbox" id="<%=count + "checkbox"%>" name="checkbox" value="<%=rst.getString("tId")%>" > </td>
-                <td><input type="text" name="<%=count + "tId"%>" value="<%=rst.getString("tId")%>" readonly="true" size="10"/> </td>
-                <td><input type="text" name="<%=count + "tName"%>" value="<%=rst.getString("tName")%>" size="10"/> </td>
-                <td><input type="text" name="<%=count + "tSex"%>" value="<%=rst.getString("tSex")%>" size="10"/> </td>
-                <td><input type="text" name="<%=count + "tAge"%>" value="<%=rst.getString("tAge")%>" size="10"/> </td>
-                <th><input type="text" name="<%=count + "tDepartment"%>" value="<%=rst.getString("tDepartment")%>" size="10"/> </th>
+                <td><input type="text" name="<%=count + "tId"%>" value="<%=rst.getString("tId")%>" readonly="readonly" class="form-control" style="width: 100%;"></td>
+                <td><input type="text" name="<%=count + "tName"%>" value="<%=rst.getString("tName")%>" style="width: 100%;" /> </td>
+                <td><input type="text" name="<%=count + "tSex"%>" value="<%=rst.getString("tSex")%>" style="width: 100%;" /> </td>
+                <td><input type="text" name="<%=count + "tAge"%>" value="<%=rst.getString("tAge")%>" style="width: 100%;" > </td>
+                <th><input type="text" name="<%=count + "tDepartment"%>" value="<%=rst.getString("tDepartment")%>" style="width: 100%;" /> </th>
             </tr>
 
             <%
+
                         count++;
                     }
                     session.setAttribute("count",count);
@@ -248,7 +248,7 @@
 
 
         <div class="col-lg-6">
-            <h3 class="bill" contenteditable="false">添加培训信息</h3>
+            <h3>添加培训信息</h3>
         </div>
         <table class="table table-responsive">
             <thead>

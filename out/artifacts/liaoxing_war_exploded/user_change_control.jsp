@@ -27,14 +27,14 @@
             db.closeStmt();
             db.closeConn();
             PrintWriter output = response.getWriter();
-            output.print("<script>alert('保存完成'); " +
+            output.print("<script>alert('修改成功'); " +
                     "window.location='index.jsp' </script>");
 
             output.flush();
             output.close();
         }else {
             PrintWriter output = response.getWriter();
-            output.print("<script>alert('密码不一致'); " +
+            output.print("<script>alert('修改失败，密码不一致'); " +
                     "window.location='user_change.jsp' </script>");
 
             output.flush();
@@ -42,7 +42,7 @@
         }
     }else {
             PrintWriter output = response.getWriter();
-            output.print("<script>alert('密码为空'); " +
+            output.print("<script>alert('修改失败，密码为空'); " +
                     "window.location='user_change.jsp' </script>");
 
             output.flush();

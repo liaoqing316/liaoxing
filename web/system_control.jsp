@@ -18,6 +18,7 @@
 
     DBAccessBean db = new DBAccessBean();
     db.createConn();
+
     try {
         String delete;
         String[] deleteString = request.getParameterValues("checkbox");
@@ -25,8 +26,23 @@
             for (int i = 0; i < deleteString.length; i++) {
                 delete = deleteString[i];
                 if (delete != null) {
-                    String sql = "delete from usertable where username='" + delete + "';";
-                    db.update(sql);
+                    if(delete.equals(session.getAttribute("username"))){
+                        PrintWriter output = response.getWriter();
+                        output.print("<script>alert('删除失败，不能删除当前用户名'); " +
+                                "window.location='system.jsp' </script>");
+                        output.flush();
+                        output.close();
+                    }else {
+                        String sql = "delete from usertable where username='" + delete + "';";
+                        db.update(sql);
+
+                        PrintWriter output = response.getWriter();
+                        output.print("<script>alert('删除成功'); " +
+                                "window.location='system.jsp' </script>");
+
+                        output.flush();
+                        output.close();
+                    }
                 }
             }
         }
@@ -38,9 +54,23 @@
     try {
         String username=request.getParameter("add_username");//添加数据
         String password=request.getParameter("add_password");
-        if ((!username.equals(""))) {
+        if ((!username.equals(""))&&(!password.equals(""))&&(!username.equals(session.getAttribute("username")))) {
             String sql = "insert into usertable values('" + username + "','" + password + "');";
             db.update(sql);
+
+            PrintWriter output = response.getWriter();
+            output.print("<script>alert('添加成功'); " +
+                    "window.location='system.jsp' </script>");
+
+            output.flush();
+            output.close();
+        }
+        else{
+            PrintWriter output =response.getWriter();
+            output.print("<script>alert('添加失败，用户名重复');" +
+            "window.location='system.jsp' </script>");
+            output.flush();
+            output.close();
         }
         db.closeRs();
         db.closeStmt();
@@ -48,13 +78,6 @@
     }catch (Exception e){
         e.printStackTrace();
     }
-    PrintWriter output = response.getWriter();
-    output.print("<script>alert('保存完成'); " +
-            "window.location='system.jsp' </script>");
-
-    output.flush();
-    output.close();
-
 %>
 </body>
 </html>

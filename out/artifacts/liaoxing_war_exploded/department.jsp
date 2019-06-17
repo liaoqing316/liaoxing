@@ -45,13 +45,13 @@
 
                 <li><a href="department.jsp "><i class="ti-layout"></i> 部门管理</a></li>
                 <li><a href="staff.jsp "><i class="ti-user"></i> 员工管理</a></li>
-                <li><a href="hire.jsp "><i class="ti-panel"></i> 招聘管理</a></li>
-                <li><a href="train.jsp "><i class="ti-layout-grid4-alt"></i> 培训管理</a></li>
-                <li><a href="rp.jsp "><i class="ti-view-list-alt"></i> 奖惩管理</a></li>
+                <li><a href="hire.jsp "><i class="ti-layout-cta-btn-left"></i> 招聘管理</a></li>
+                <li><a href="train.jsp "><i class="ti-id-badge"></i> 培训管理</a></li>
+                <li><a href="rp.jsp "><i class="ti-gift"></i> 奖惩管理</a></li>
                 <li><a href="pay.jsp "><i class="ti-bar-chart-alt"></i> 薪资管理</a></li>
-                <li><a href="system.jsp "><i class="ti-target"></i> 系统管理</a></li>
+                <li><a href="system.jsp "><i class="ti-settings"></i> 系统管理</a></li>
                 <li><a href="user_change.jsp "><i class="ti-file"></i> 用户修改</a></li>
-                <li><a href="exit.jsp "><i class="ti-close"></i> 安全退出</a></li>
+                <li><a href="exit.jsp "><i class="ti-power-off"></i> 安全退出</a></li>
             </ul>
         </div>
     </div>
@@ -205,9 +205,9 @@
                     <table class="table table-responsive">
                         <thead>
                         <tr>
-                            <th><i class="ti-close"></i></th>
-                            <th>部门编号</th>
-                            <th>部门名称</th>
+                            <td class="ti-close"></td>
+                            <td>部门编号</td>
+                            <td>部门名称</td>
                         </tr>
                         </thead>
                         <tbody>
@@ -222,7 +222,7 @@
                                     String string=rst.getString("dId");
                                     out.print("<td><input type='checkbox' name=checkbox value="+string+"></td>");
                                     out.println("<td>"+rst.getString("dId")+"</td>");
-                                    out.println("<td>"+rst.getString("dName")+"</td>");
+                                    out.println("<th>"+rst.getString("dName")+"</th>");
                                     out.println("</tr>");
                                 }
                                 db.closeRs();

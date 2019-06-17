@@ -43,7 +43,7 @@
             String tSex = request.getParameter(i + "tSex");
             String tAge = request.getParameter(i + "tAge");
             String tDepartment = request.getParameter(i + "tDepartment");
-            if ((!tSex.equals("")) || (!tAge.equals("")) || (!tDepartment.equals(""))) {
+            if ((!tName.equals(""))&&(!tSex.equals(""))&&(!tAge.equals(""))&&(!tDepartment.equals(""))) {
                 String sql = "update train set tName = '" + tName + "',tSex =' " + tSex + " ',tAge = " + tAge + ",tDepartment = '" + tDepartment +"' where tId=" + tId + ";";
                 db.update(sql);
             }
@@ -57,8 +57,10 @@
         String tSex=request.getParameter("tSex");
         String tAge=request.getParameter("tAge");
         String tDepartment=request.getParameter("tDepartment");
-        String sql = "insert into train values(null,'" + tName + "','"+ tSex +"'," + tAge +",'"+ tDepartment +"');";
-        db.update(sql);
+        if ((!tName.equals(""))&&(!tSex.equals(""))&&(!tAge.equals(""))&&(!tDepartment.equals(""))) {
+            String sql = "insert into train values(null,'" + tName + "','" + tSex + "'," + tAge + ",'" + tDepartment + "');";
+            db.update(sql);
+        }
         db.closeRs();
         db.closeStmt();
         db.closeConn();

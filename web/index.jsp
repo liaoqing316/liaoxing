@@ -44,7 +44,7 @@
                         <form method="post" action="login_control.jsp">
                             <div class="form-group">
                                 <label>账号</label>
-                                <input type="text" name="username" class="form-control" placeholder="请输入用户名">
+                                <input type="text" name="username"  class="form-control" placeholder="请输入用户名">
                             </div>
                             <div class="form-group">
                                 <label>密码</label>

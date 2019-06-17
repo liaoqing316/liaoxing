@@ -6,7 +6,43 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bff59d65-d8c8-4649-b1e7-ef9136789f21" name="Default Changelist" comment="" />
+    <list default="true" id="bff59d65-d8c8-4649-b1e7-ef9136789f21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/department.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/department.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/department_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/department_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/hire.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/hire.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/hire_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/hire_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/pay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/pay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/pay_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/pay_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/rp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/rp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/rp_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/rp_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/staff.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/staff.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/staff_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/staff_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/system.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/system.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/system_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/system_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/train.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/train.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/train_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/train_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/user_change.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/user_change.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/user_change_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/liaoxing_war_exploded/user_change_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/department.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/department.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/department_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/department_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/hire.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/hire.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/hire_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/hire_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pay_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pay_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/rp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/rp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/rp_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/rp_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/staff.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/staff.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/staff_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/staff_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/system.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/system.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/system_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/system_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/train.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/train.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/train_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/train_control.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user_change.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user_change.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user_change_control.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user_change_control.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,101 +50,82 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="liaoqing@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="liaoqing@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="liaoqing@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="liaoqing: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/rp.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="60" column="86" selection-start-line="60" selection-start-column="86" selection-end-line="60" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/department.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="234" column="26" lean-forward="true" selection-start-line="213" selection-start-column="23" selection-end-line="234" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/staff.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="269" column="16" lean-forward="true" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/hire.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="269" column="16" lean-forward="true" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/user_change.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="206" column="89" lean-forward="true" selection-start-line="206" selection-start-column="89" selection-end-line="206" selection-end-column="89" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/train.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="206" column="49" selection-start-line="206" selection-start-column="49" selection-end-line="206" selection-end-column="49" />
+            <state relative-caret-position="4032">
+              <caret line="224" column="83" selection-start-line="224" selection-start-column="83" selection-end-line="224" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/rp.jsp">
+        <entry file="file://$PROJECT_DIR$/web/user_change.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="263" column="16" selection-start-line="263" selection-start-column="16" selection-end-line="263" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="206" column="178" selection-start-line="206" selection-start-column="170" selection-end-line="206" selection-end-column="178" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pay.jsp">
+        <entry file="file://$PROJECT_DIR$/web/login_control.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="270" column="49" selection-start-line="270" selection-start-column="49" selection-end-line="270" selection-end-column="49" />
+            <state relative-caret-position="270">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/system.jsp">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="207" column="69" selection-start-line="207" selection-start-column="69" selection-end-line="207" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
+            <state relative-caret-position="72">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="29" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -116,8 +133,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/user_change_control.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="-139">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/staff_control.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/system.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4662">
+              <caret line="259" column="69" selection-start-line="259" selection-start-column="69" selection-end-line="259" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/train.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4068">
+              <caret line="226" column="159" selection-start-line="226" selection-start-column="159" selection-end-line="226" selection-end-column="159" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/system_control.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -139,22 +192,32 @@
       <find>ti-close</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/login_control.jsp" />
         <option value="$PROJECT_DIR$/web/exit.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/register.jsp" />
-        <option value="$PROJECT_DIR$/web/user_change_control.jsp" />
-        <option value="$PROJECT_DIR$/web/user_change.jsp" />
-        <option value="$PROJECT_DIR$/web/staff.jsp" />
+        <option value="$PROJECT_DIR$/web/rp.jsp" />
+        <option value="$PROJECT_DIR$/web/pay_control.jsp" />
         <option value="$PROJECT_DIR$/web/department.jsp" />
-        <option value="$PROJECT_DIR$/web/hire.jsp" />
+        <option value="$PROJECT_DIR$/web/staff_control.jsp" />
+        <option value="$PROJECT_DIR$/web/staff.jsp" />
         <option value="$PROJECT_DIR$/web/pay.jsp" />
+        <option value="$PROJECT_DIR$/web/user_change_control.jsp" />
+        <option value="$PROJECT_DIR$/web/hire.jsp" />
+        <option value="$PROJECT_DIR$/web/hire_control.jsp" />
+        <option value="$PROJECT_DIR$/web/train_control.jsp" />
+        <option value="$PROJECT_DIR$/web/department_control.jsp" />
+        <option value="$PROJECT_DIR$/web/rp_control.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/system_control.jsp" />
         <option value="$PROJECT_DIR$/web/system.jsp" />
         <option value="$PROJECT_DIR$/web/train.jsp" />
-        <option value="$PROJECT_DIR$/web/rp.jsp" />
+        <option value="$PROJECT_DIR$/web/user_change.jsp" />
       </list>
     </option>
   </component>
@@ -165,22 +228,36 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="279" />
     <option name="y" value="23" />
-    <option name="width" value="629" />
+    <option name="width" value="1001" />
     <option name="height" value="722" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="liaoxing" type="b2602c69:ProjectViewProjectNode" />
               <item name="liaoxing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liaoxing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liaoxing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liaoxing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liaoxing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javabean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liaoxing" type="b2602c69:ProjectViewProjectNode" />
@@ -192,12 +269,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -304,18 +383,34 @@
       <updated>1560323320588</updated>
       <workItem from="1560323321991" duration="9456000" />
       <workItem from="1560338230143" duration="10161000" />
-      <workItem from="1560384082895" duration="4918000" />
+      <workItem from="1560384082895" duration="10146000" />
+      <workItem from="1560408216855" duration="7809000" />
+      <workItem from="1560429898866" duration="7646000" />
+      <workItem from="1560470610712" duration="2856000" />
+      <workItem from="1560477145609" duration="2781000" />
+      <workItem from="1560675194346" duration="2491000" />
+      <workItem from="1560700287746" duration="459000" />
+      <workItem from="1560753097273" duration="1825000" />
+      <workItem from="1560769215586" duration="775000" />
     </task>
+    <task id="LOCAL-00001" summary="修复一些小bug">
+      <created>1560485382750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560485382751</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24535000" />
+    <option name="totallyTimeSpent" value="56405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="279" y="23" width="1001" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13166398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10636079" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -325,7 +420,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.045205478" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.303681" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,71 +431,28 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.024232633" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12843296" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.045205478" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.28356165" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修复一些小bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复一些小bug" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/login_control.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register_control.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/exit.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -408,93 +460,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-        </state>
-      </provider>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9d8db7c7-5a54-4097-ac13-f675c7b3f922/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/user_change_control.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/97bdeb4e-e05b-4d08-a452-1917f4f05a5d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/hire.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="269" column="16" lean-forward="true" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+    <entry file="das://97bdeb4e-e05b-4d08-a452-1917f4f05a5d/schema/information_schema/view/FILES" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f2922b8b-43f4-4b00-8f15-3653dfd025b4/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://f2922b8b-43f4-4b00-8f15-3653dfd025b4/schema/liaoqing/table/usertable">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="ae31db0a-945e-43ed-b3ab-6c333f379db0">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pay.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="270" column="49" selection-start-line="270" selection-start-column="49" selection-end-line="270" selection-end-column="49" />
+        <state relative-caret-position="297">
+          <caret line="227" column="139" selection-start-line="227" selection-start-column="139" selection-end-line="227" selection-end-column="139" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pay_control.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hire_control.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/rp_control.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/train_control.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hire.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4212">
+          <caret line="234" column="14" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register_control.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="27" selection-start-line="20" selection-start-column="11" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javabean/BusinessBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/department_control.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javabean/DBAccessBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="81" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/staff.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="269" column="16" lean-forward="true" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/system.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="207" column="69" selection-start-line="207" selection-start-column="69" selection-end-line="207" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/train.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="206" column="49" selection-start-line="206" selection-start-column="49" selection-end-line="206" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user_change.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="206" column="89" lean-forward="true" selection-start-line="206" selection-start-column="89" selection-end-line="206" selection-end-column="89" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#form#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/department.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="234" column="26" lean-forward="true" selection-start-line="213" selection-start-column="23" selection-end-line="234" selection-end-column="26" />
+        <state relative-caret-position="4194">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
+        <state relative-caret-position="810">
           <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/rp.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="263" column="16" selection-start-line="263" selection-start-column="16" selection-end-line="263" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1080">
+          <caret line="60" column="86" selection-start-line="60" selection-start-column="86" selection-end-line="60" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/department.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4032">
+          <caret line="224" column="83" selection-start-line="224" selection-start-column="83" selection-end-line="224" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/staff_control.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/system.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4662">
+          <caret line="259" column="69" selection-start-line="259" selection-start-column="69" selection-end-line="259" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/train.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4068">
+          <caret line="226" column="159" selection-start-line="226" selection-start-column="159" selection-end-line="226" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/system_control.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user_change_control.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login_control.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user_change.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="206" column="178" selection-start-line="206" selection-start-column="170" selection-end-line="206" selection-end-column="178" />
         </state>
       </provider>
     </entry>

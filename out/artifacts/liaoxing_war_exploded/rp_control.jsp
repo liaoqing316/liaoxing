@@ -40,7 +40,7 @@
         String rpName=request.getParameter("add_rpName");   //添加数据
         String rpDepartment=request.getParameter("add_rpDepartment");
         String rpRp=request.getParameter("add_rpRp");
-        if (!rpName.equals("")) {
+        if (!rpName.equals("")&&(!rpDepartment.equals("")&&(!rpRp.equals("")))) {
             String sql = "insert into rp values(null,'" + rpName + "','" + rpDepartment + "','" + rpRp + "');";
             db.update(sql);
         }

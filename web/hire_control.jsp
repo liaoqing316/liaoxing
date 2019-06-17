@@ -64,7 +64,7 @@
             String hSex = request.getParameter(i + "hSex");
             String hAge = request.getParameter(i + "hAge");
             String hDepartment = request.getParameter(i + "hDepartment");
-            if ((!hSex.equals("")) || (!hAge.equals("")) || (!hDepartment.equals(""))) {
+            if ((!hName.equals(""))&&(!hSex.equals("")) && (!hAge.equals("")) && (!hDepartment.equals(""))) {
                 String sql = "update hire set hName = '" + hName + "',hSex ='" + hSex + "',hAge = " + hAge + ",hDepartment = '" + hDepartment +"' where hId=" + hId + ";";
                 db.update(sql);
             }
@@ -74,12 +74,14 @@
     }
 
     try {
-        String hName=request.getParameter("hName");   //添加数据
-        String hSex=request.getParameter("hSex");
-        String hAge=request.getParameter("hAge");
-        String hDepartment=request.getParameter("hDepartment");
-        String sql = "insert into hire values(null,'"+ hName +"','"+ hSex +"',"+ hAge +",'"+ hDepartment +"');";
-        db.update(sql);
+        String hName=request.getParameter("add_hName");   //添加数据
+        String hSex=request.getParameter("add_hSex");
+        String hAge=request.getParameter("add_hAge");
+        String hDepartment=request.getParameter("add_hDepartment");
+        if ((!hName.equals(""))&&(!hSex.equals("")) && (!hAge.equals("")) && (!hDepartment.equals(""))) {
+            String sql = "insert into hire values(null,'" + hName + "','" + hSex + "'," + hAge + ",'" + hDepartment + "');";
+            db.update(sql);
+        }
         db.closeRs();
         db.closeStmt();
         db.closeConn();
@@ -93,7 +95,6 @@
 
     output.flush();
     output.close();
-
 
 %>
 

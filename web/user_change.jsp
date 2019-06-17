@@ -43,13 +43,13 @@
 
                     <li><a href="department.jsp "><i class="ti-layout"></i> 部门管理</a></li>
                     <li><a href="staff.jsp "><i class="ti-user"></i> 员工管理</a></li>
-                    <li><a href="hire.jsp "><i class="ti-panel"></i> 招聘管理</a></li>
-                    <li><a href="train.jsp "><i class="ti-layout-grid4-alt"></i> 培训管理</a></li>
-                    <li><a href="rp.jsp "><i class="ti-view-list-alt"></i> 奖惩管理</a></li>
+                    <li><a href="hire.jsp "><i class="ti-layout-cta-btn-left"></i> 招聘管理</a></li>
+                    <li><a href="train.jsp "><i class="ti-id-badge"></i> 培训管理</a></li>
+                    <li><a href="rp.jsp "><i class="ti-gift"></i> 奖惩管理</a></li>
                     <li><a href="pay.jsp "><i class="ti-bar-chart-alt"></i> 薪资管理</a></li>
-                    <li><a href="system.jsp "><i class="ti-target"></i> 系统管理</a></li>
+                    <li><a href="system.jsp "><i class="ti-settings"></i> 系统管理</a></li>
                     <li><a href="user_change.jsp "><i class="ti-file"></i> 用户修改</a></li>
-                    <li><a href="exit.jsp "><i class="ti-close"></i> 安全退出</a></li>
+                    <li><a href="exit.jsp "><i class="ti-power-off"></i> 安全退出</a></li>
                 </ul>
             </div>
         </div>
@@ -204,8 +204,7 @@
                                 <form>
                                     <div class="form-group">
                                         <p class="text-muted m-b-15 f-s-12">账号</p>
-                                        <td><input type="text" class="form-control" name="username" readonly="true" id="username"> </td>
-
+                                        <td><input type="text" class="form-control" name="username" readonly="true" id="username" value="<%=(String)session.getAttribute("username")%>"> </td>
                                     </div>
                                     <div class="form-group">
                                         <p class="text-muted m-b-15 f-s-12">密码</p>
@@ -227,11 +226,6 @@
         </div>
         <!-- /# main content -->
     </div>
-
-    <script language="JavaScript" type="text/javascript">
-        document.getElementById("username").value=<%=(String)session.getAttribute("username")%>;
-    </script>
-
         <!-- /# content wrap -->
         <script src="assets/js/lib/jquery.min.js"></script>
         <!-- jquery vendor -->
